@@ -1,0 +1,10 @@
+{
+  "_comment": "Este archivo es un EJEMPLO. Copialo como appsettings.Development.json con tus valores reales (ese archivo esta en .gitignore).",
+  "Logging": {
+    "LogLevel": {
+      "Default": "Debug",
+      "Microsoft.AspNetCore": "Information",
+      "Microsoft.EntityFrameworkCore.Database.Command": "Information"
+    }
+  }
+}

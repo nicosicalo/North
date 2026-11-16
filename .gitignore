@@ -1,0 +1,40 @@
+﻿# ─── .NET ───────────────────────────────────────────────────
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# User Secrets & local appsettings (pueden tener connection strings)
+**/appsettings.Development.json
+**/appsettings.Local.json
+
+# Publish output
+publish/
+out/
+
+# ─── Angular / Node ─────────────────────────────────────────
+node_modules/
+dist/
+.angular/
+*.js.map
+
+# ─── Secretos y variables de entorno ────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── OS ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── IDE ─────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+
+# ─── Test results ────────────────────────────────────────────
+TestResults/
+coverage/
+*.coverage
